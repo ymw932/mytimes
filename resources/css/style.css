@@ -41,3 +41,50 @@ header nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+.content {
+  display: flex;
+  width: 1232;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+
+.image-content {
+  background-image: url(../images/img-story-main.png);
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.lead-story .image-content {
+  font-size: 40px;
+  text-align: left;
+}
+
+.cat-ceo.image-content {
+  background-image: url(../images/img-story-1.png);
+}
